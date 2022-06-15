@@ -30,6 +30,33 @@ namespace Interfaz_CARINOR_2._0
                 textBox1.ForeColor = Color.Black;
             }
         }
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "USUARIO";
+                textBox1.ForeColor = Color.Black;
+
+            }
+        }
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "CONTRASEÑA")
+            {
+                textBox2.Text = "";
+                textBox2.ForeColor = Color.Black;
+                textBox2.UseSystemPasswordChar = true;
+            }
+        }
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "")
+            {
+                textBox2.Text = "CONTRASEÑA";
+                textBox2.ForeColor = Color.Black;
+                textBox2.UseSystemPasswordChar = false;
+            }
+        }
 
         private void iconButton11_Click(object sender, EventArgs e)
         {
@@ -40,11 +67,11 @@ namespace Interfaz_CARINOR_2._0
         {
             if (textBox1.Text == "carinor")
             {
-                if (textBox2.Text == "12345")
+                if (textBox2.Text == "1234")
                 {
-                    MessageBox.Show("Bienvenido Jorge");
-                    //FLogin f new = FPrincipal ();
-                    //F.ShowDialog();
+                    MessageBox.Show("Bienvenido a carinor");
+                    FPrincipal2 f = new FPrincipal2  ();
+                    f.ShowDialog();
                     this.Hide();
                 }
                 else
@@ -63,35 +90,25 @@ namespace Interfaz_CARINOR_2._0
             }
         }
 
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "")
-            {
-                textBox1.Text = "USUARIO";
-                textBox1.ForeColor = Color.Black;
-
-            }
-        }
+      
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            if (textBox2.Text == "CONTRASEÑA");
-            {
-                textBox2.Text = "";
-                textBox2.ForeColor = Color.Black;
-                textBox2.UseSystemPasswordChar = true;
-
-            }            
+                 
 
         }
 
-        private void textBox2_Leave(object sender, EventArgs e)
+       
+
+        private void textBox1_DragLeave(object sender, EventArgs e)
         {
-            if (textBox2.Text == "")
-            {
-                textBox2.Text = "CONTRASEÑA";
-                textBox2.ForeColor = Color.Black;
-                textBox2.UseSystemPasswordChar = false;
-            }
+
         }
+
+        private void textBox2_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
