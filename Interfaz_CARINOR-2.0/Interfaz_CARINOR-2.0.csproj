@@ -178,24 +178,6 @@
     <Compile Include="Actualizar_Cliente.Designer.cs">
       <DependentUpon>Actualizar_Cliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Eliminar-bodega.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Eliminar-bodega.Designer.cs">
-      <DependentUpon>Eliminar-bodega.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Eliminar-Cliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Eliminar-Cliente.Designer.cs">
-      <DependentUpon>Eliminar-Cliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Eliminar-producto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Eliminar-producto.Designer.cs">
-      <DependentUpon>Eliminar-producto.cs</DependentUpon>
-    </Compile>
     <Compile Include="FBodega.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -213,12 +195,6 @@
     </Compile>
     <Compile Include="FLogin.Designer.cs">
       <DependentUpon>FLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="FPedidos.cs">
       <SubType>Form</SubType>
@@ -279,15 +255,6 @@
     <EmbeddedResource Include="Actualizar_Cliente.resx">
       <DependentUpon>Actualizar_Cliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Eliminar-bodega.resx">
-      <DependentUpon>Eliminar-bodega.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Eliminar-Cliente.resx">
-      <DependentUpon>Eliminar-Cliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Eliminar-producto.resx">
-      <DependentUpon>Eliminar-producto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FBodega.resx">
       <DependentUpon>FBodega.cs</DependentUpon>
     </EmbeddedResource>
@@ -297,14 +264,17 @@
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FPedidos.resx">
+      <DependentUpon>FPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPrincipal2.resx">
       <DependentUpon>FPrincipal2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FProductos.resx">
       <DependentUpon>FProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gastos.resx">
+      <DependentUpon>Gastos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HClientes.resx">
       <DependentUpon>HClientes.cs</DependentUpon>

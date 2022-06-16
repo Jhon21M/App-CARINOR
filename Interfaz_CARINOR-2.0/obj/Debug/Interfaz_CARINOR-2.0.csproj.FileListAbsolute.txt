@@ -508,3 +508,4 @@ C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\bin\Debug\Bunifu.UI
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\bin\Debug\VisualReactiveWinForms.xml
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR-2.0.csproj.CopyComplete
+C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPedidos.resources

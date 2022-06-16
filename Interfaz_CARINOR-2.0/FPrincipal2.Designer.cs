@@ -43,13 +43,17 @@
             this.CSesion = new FontAwesome.Sharp.IconButton();
             this.bunifuGradientPanel2 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.PSubMenu = new Bunifu.UI.WinForms.BunifuPanel();
+            this.PAdminist = new Bunifu.UI.WinForms.BunifuPanel();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.iconButton10 = new FontAwesome.Sharp.IconButton();
+            this.iconButton12 = new FontAwesome.Sharp.IconButton();
+            this.iconButton9 = new FontAwesome.Sharp.IconButton();
+            this.iconButton8 = new FontAwesome.Sharp.IconButton();
+            this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.PGastos = new Bunifu.UI.WinForms.BunifuPanel();
             this.iconButton22 = new FontAwesome.Sharp.IconButton();
             this.iconButton20 = new FontAwesome.Sharp.IconButton();
             this.iconButton21 = new FontAwesome.Sharp.IconButton();
-            this.PPedidos = new Bunifu.UI.WinForms.BunifuPanel();
-            this.iconButton16 = new FontAwesome.Sharp.IconButton();
-            this.iconButton17 = new FontAwesome.Sharp.IconButton();
             this.PInvers = new Bunifu.UI.WinForms.BunifuPanel();
             this.iconButton13 = new FontAwesome.Sharp.IconButton();
             this.iconButton14 = new FontAwesome.Sharp.IconButton();
@@ -69,16 +73,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.PAdminist = new Bunifu.UI.WinForms.BunifuPanel();
-            this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
-            this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.BCerrarSession = new FontAwesome.Sharp.IconButton();
             this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
             this.PPrincipalF = new Bunifu.UI.WinForms.BunifuGradientPanel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.bunifuGradientPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnrestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
@@ -87,13 +84,12 @@
             this.PSoporte.SuspendLayout();
             this.bunifuGradientPanel2.SuspendLayout();
             this.PSubMenu.SuspendLayout();
+            this.PAdminist.SuspendLayout();
             this.PGastos.SuspendLayout();
-            this.PPedidos.SuspendLayout();
             this.PInvers.SuspendLayout();
             this.PPago.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.PAdminist.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -307,7 +303,6 @@
             this.PSubMenu.BorderThickness = 0;
             this.PSubMenu.Controls.Add(this.PAdminist);
             this.PSubMenu.Controls.Add(this.PGastos);
-            this.PSubMenu.Controls.Add(this.PPedidos);
             this.PSubMenu.Controls.Add(this.PInvers);
             this.PSubMenu.Controls.Add(this.BEstadist);
             this.PSubMenu.Controls.Add(this.BGastos);
@@ -321,6 +316,154 @@
             this.PSubMenu.Size = new System.Drawing.Size(177, 425);
             this.PSubMenu.TabIndex = 2;
             this.PSubMenu.Click += new System.EventHandler(this.bunifuPanel2_Click);
+            // 
+            // PAdminist
+            // 
+            this.PAdminist.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.PAdminist.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PAdminist.BackgroundImage")));
+            this.PAdminist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PAdminist.BorderColor = System.Drawing.Color.Transparent;
+            this.PAdminist.BorderRadius = 5;
+            this.PAdminist.BorderThickness = 1;
+            this.PAdminist.Controls.Add(this.iconButton3);
+            this.PAdminist.Controls.Add(this.iconButton10);
+            this.PAdminist.Controls.Add(this.iconButton12);
+            this.PAdminist.Controls.Add(this.iconButton9);
+            this.PAdminist.Controls.Add(this.iconButton8);
+            this.PAdminist.Controls.Add(this.iconButton7);
+            this.PAdminist.Location = new System.Drawing.Point(5, 247);
+            this.PAdminist.Name = "PAdminist";
+            this.PAdminist.ShowBorders = true;
+            this.PAdminist.Size = new System.Drawing.Size(23, 175);
+            this.PAdminist.TabIndex = 0;
+            this.PAdminist.Click += new System.EventHandler(this.bunifuPanel3_Click);
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton3.FlatAppearance.BorderSize = 0;
+            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.iconButton3.IconColor = System.Drawing.Color.Ivory;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton3.Location = new System.Drawing.Point(0, 128);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.iconButton3.Size = new System.Drawing.Size(23, 42);
+            this.iconButton3.TabIndex = 17;
+            this.iconButton3.Text = "Poductos";
+            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton3.UseVisualStyleBackColor = false;
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
+            // iconButton10
+            // 
+            this.iconButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.iconButton10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton10.FlatAppearance.BorderSize = 0;
+            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton10.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.iconButton10.IconColor = System.Drawing.Color.Ivory;
+            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton10.Location = new System.Drawing.Point(0, 80);
+            this.iconButton10.Name = "iconButton10";
+            this.iconButton10.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.iconButton10.Size = new System.Drawing.Size(23, 48);
+            this.iconButton10.TabIndex = 14;
+            this.iconButton10.Text = "Clientes";
+            this.iconButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton10.UseVisualStyleBackColor = false;
+            this.iconButton10.Click += new System.EventHandler(this.iconButton10_Click);
+            // 
+            // iconButton12
+            // 
+            this.iconButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.iconButton12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton12.FlatAppearance.BorderSize = 0;
+            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton12.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.UserNinja;
+            this.iconButton12.IconColor = System.Drawing.Color.Ivory;
+            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton12.Location = new System.Drawing.Point(0, 40);
+            this.iconButton12.Name = "iconButton12";
+            this.iconButton12.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.iconButton12.Size = new System.Drawing.Size(23, 40);
+            this.iconButton12.TabIndex = 16;
+            this.iconButton12.Text = "Trabajadores";
+            this.iconButton12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton12.UseVisualStyleBackColor = false;
+            // 
+            // iconButton9
+            // 
+            this.iconButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.iconButton9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton9.FlatAppearance.BorderSize = 0;
+            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton9.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.Upload;
+            this.iconButton9.IconColor = System.Drawing.Color.Ivory;
+            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton9.Location = new System.Drawing.Point(0, 0);
+            this.iconButton9.Name = "iconButton9";
+            this.iconButton9.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.iconButton9.Size = new System.Drawing.Size(23, 40);
+            this.iconButton9.TabIndex = 15;
+            this.iconButton9.Text = "Bodega";
+            this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton9.UseVisualStyleBackColor = false;
+            this.iconButton9.Click += new System.EventHandler(this.iconButton9_Click);
+            // 
+            // iconButton8
+            // 
+            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.iconButton8.FlatAppearance.BorderSize = 0;
+            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton8.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Viadeo;
+            this.iconButton8.IconColor = System.Drawing.Color.Ivory;
+            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton8.Location = new System.Drawing.Point(0, 0);
+            this.iconButton8.Name = "iconButton8";
+            this.iconButton8.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.iconButton8.Size = new System.Drawing.Size(14, 40);
+            this.iconButton8.TabIndex = 14;
+            this.iconButton8.Text = "  Productos";
+            this.iconButton8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton8.UseVisualStyleBackColor = false;
+            this.iconButton8.Click += new System.EventHandler(this.iconButton8_Click);
+            // 
+            // iconButton7
+            // 
+            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton7.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.iconButton7.IconColor = System.Drawing.Color.Ivory;
+            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton7.Location = new System.Drawing.Point(0, 0);
+            this.iconButton7.Name = "iconButton7";
+            this.iconButton7.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.iconButton7.Size = new System.Drawing.Size(169, 40);
+            this.iconButton7.TabIndex = 13;
+            this.iconButton7.Text = "Clientes";
+            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton7.UseVisualStyleBackColor = false;
+            this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
             // 
             // PGastos
             // 
@@ -403,67 +546,6 @@
             this.iconButton21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton21.UseVisualStyleBackColor = false;
             this.iconButton21.Click += new System.EventHandler(this.iconButton21_Click);
-            // 
-            // PPedidos
-            // 
-            this.PPedidos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.PPedidos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PPedidos.BackgroundImage")));
-            this.PPedidos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PPedidos.BorderColor = System.Drawing.Color.Transparent;
-            this.PPedidos.BorderRadius = 5;
-            this.PPedidos.BorderThickness = 1;
-            this.PPedidos.Controls.Add(this.iconButton16);
-            this.PPedidos.Controls.Add(this.iconButton17);
-            this.PPedidos.Location = new System.Drawing.Point(34, 249);
-            this.PPedidos.Name = "PPedidos";
-            this.PPedidos.ShowBorders = true;
-            this.PPedidos.Size = new System.Drawing.Size(16, 88);
-            this.PPedidos.TabIndex = 3;
-            this.PPedidos.Click += new System.EventHandler(this.PPedidos_Click);
-            // 
-            // iconButton16
-            // 
-            this.iconButton16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton16.FlatAppearance.BorderSize = 0;
-            this.iconButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton16.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.UserCheck;
-            this.iconButton16.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton16.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton16.Location = new System.Drawing.Point(0, 40);
-            this.iconButton16.Name = "iconButton16";
-            this.iconButton16.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton16.Size = new System.Drawing.Size(16, 40);
-            this.iconButton16.TabIndex = 14;
-            this.iconButton16.Text = "Entregados";
-            this.iconButton16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton16.UseVisualStyleBackColor = false;
-            this.iconButton16.Click += new System.EventHandler(this.iconButton16_Click);
-            // 
-            // iconButton17
-            // 
-            this.iconButton17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton17.FlatAppearance.BorderSize = 0;
-            this.iconButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton17.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton17.IconChar = FontAwesome.Sharp.IconChar.UserTimes;
-            this.iconButton17.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton17.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton17.Location = new System.Drawing.Point(0, 0);
-            this.iconButton17.Name = "iconButton17";
-            this.iconButton17.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton17.Size = new System.Drawing.Size(16, 40);
-            this.iconButton17.TabIndex = 13;
-            this.iconButton17.Text = "Pendientes";
-            this.iconButton17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton17.UseVisualStyleBackColor = false;
-            this.iconButton17.Click += new System.EventHandler(this.iconButton17_Click);
             // 
             // PInvers
             // 
@@ -762,132 +844,6 @@
             this.panel1.Size = new System.Drawing.Size(10, 49);
             this.panel1.TabIndex = 10;
             // 
-            // PAdminist
-            // 
-            this.PAdminist.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.PAdminist.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PAdminist.BackgroundImage")));
-            this.PAdminist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PAdminist.BorderColor = System.Drawing.Color.Transparent;
-            this.PAdminist.BorderRadius = 5;
-            this.PAdminist.BorderThickness = 1;
-            this.PAdminist.Controls.Add(this.iconButton3);
-            this.PAdminist.Controls.Add(this.iconButton10);
-            this.PAdminist.Controls.Add(this.iconButton12);
-            this.PAdminist.Controls.Add(this.iconButton9);
-            this.PAdminist.Controls.Add(this.iconButton8);
-            this.PAdminist.Controls.Add(this.iconButton7);
-            this.PAdminist.Location = new System.Drawing.Point(5, 247);
-            this.PAdminist.Name = "PAdminist";
-            this.PAdminist.ShowBorders = true;
-            this.PAdminist.Size = new System.Drawing.Size(23, 175);
-            this.PAdminist.TabIndex = 0;
-            this.PAdminist.Click += new System.EventHandler(this.bunifuPanel3_Click);
-            // 
-            // iconButton10
-            // 
-            this.iconButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton10.FlatAppearance.BorderSize = 0;
-            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton10.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Users;
-            this.iconButton10.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton10.Location = new System.Drawing.Point(0, 80);
-            this.iconButton10.Name = "iconButton10";
-            this.iconButton10.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton10.Size = new System.Drawing.Size(23, 48);
-            this.iconButton10.TabIndex = 14;
-            this.iconButton10.Text = "Clientes";
-            this.iconButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton10.UseVisualStyleBackColor = false;
-            this.iconButton10.Click += new System.EventHandler(this.iconButton10_Click);
-            // 
-            // iconButton12
-            // 
-            this.iconButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton12.FlatAppearance.BorderSize = 0;
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.UserNinja;
-            this.iconButton12.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton12.Location = new System.Drawing.Point(0, 40);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton12.Size = new System.Drawing.Size(23, 40);
-            this.iconButton12.TabIndex = 16;
-            this.iconButton12.Text = "Trabajadores";
-            this.iconButton12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton12.UseVisualStyleBackColor = false;
-            // 
-            // iconButton9
-            // 
-            this.iconButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton9.FlatAppearance.BorderSize = 0;
-            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton9.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.Upload;
-            this.iconButton9.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton9.Location = new System.Drawing.Point(0, 0);
-            this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton9.Size = new System.Drawing.Size(23, 40);
-            this.iconButton9.TabIndex = 15;
-            this.iconButton9.Text = "Bodega";
-            this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton9.UseVisualStyleBackColor = false;
-            this.iconButton9.Click += new System.EventHandler(this.iconButton9_Click);
-            // 
-            // iconButton8
-            // 
-            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Viadeo;
-            this.iconButton8.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.Location = new System.Drawing.Point(0, 0);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton8.Size = new System.Drawing.Size(14, 40);
-            this.iconButton8.TabIndex = 14;
-            this.iconButton8.Text = "  Productos";
-            this.iconButton8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton8.UseVisualStyleBackColor = false;
-            this.iconButton8.Click += new System.EventHandler(this.iconButton8_Click);
-            // 
-            // iconButton7
-            // 
-            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Users;
-            this.iconButton7.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(0, 0);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton7.Size = new System.Drawing.Size(169, 40);
-            this.iconButton7.TabIndex = 13;
-            this.iconButton7.Text = "Clientes";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton7.UseVisualStyleBackColor = false;
-            this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
-            // 
             // BCerrarSession
             // 
             this.BCerrarSession.FlatAppearance.BorderSize = 0;
@@ -939,28 +895,6 @@
             this.PPrincipalF.TabIndex = 7;
             this.PPrincipalF.Click += new System.EventHandler(this.bunifuGradientPanel1_Click_1);
             // 
-            // iconButton3
-            // 
-            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Users;
-            this.iconButton3.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 128);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton3.Size = new System.Drawing.Size(23, 42);
-            this.iconButton3.TabIndex = 17;
-            this.iconButton3.Text = "Poductos";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = false;
-            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
-            // 
             // FPrincipal2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -983,13 +917,12 @@
             this.bunifuGradientPanel2.ResumeLayout(false);
             this.bunifuGradientPanel2.PerformLayout();
             this.PSubMenu.ResumeLayout(false);
+            this.PAdminist.ResumeLayout(false);
             this.PGastos.ResumeLayout(false);
-            this.PPedidos.ResumeLayout(false);
             this.PInvers.ResumeLayout(false);
             this.PPago.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.PAdminist.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1002,9 +935,6 @@
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel2;
         private FontAwesome.Sharp.IconButton BAdminist;
         private Bunifu.UI.WinForms.BunifuPanel PSubMenu;
-        private Bunifu.UI.WinForms.BunifuPanel PPedidos;
-        private FontAwesome.Sharp.IconButton iconButton16;
-        private FontAwesome.Sharp.IconButton iconButton17;
         private FontAwesome.Sharp.IconButton BPedidos;
         private Bunifu.UI.WinForms.BunifuPanel PPago;
         private FontAwesome.Sharp.IconButton iconButton15;

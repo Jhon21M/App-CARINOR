@@ -22,8 +22,8 @@ namespace Interfaz_CARINOR_2._0
         {
             if (PAdminist.Visible == true)
                 PAdminist.Visible = false;
-            if (PPedidos.Visible == true)
-                PPedidos.Visible = false;
+            //if (PPedidos.Visible == true)
+               // PPedidos.Visible = false;
             if (PPago.Visible == true)
                 PPago.Visible = false;
             if (PGastos.Visible == true)
@@ -138,33 +138,43 @@ namespace Interfaz_CARINOR_2._0
 
         private void iconButton13_Click(object sender, EventArgs e)
         {
+            AbrirFormularios(new FPedidos());
+            EPanel();
+            BUbicacio();
+
+
+            
+
+
             //if (PAdminist.Visible == true || PPago.Visible == true || PGastos.Visible == true || PInvers.Visible == true)
             //{
                 PAdminist.Visible = false;
                 PPago.Visible = false;
                 PGastos.Visible = false;
                 PInvers.Visible = false;
-                if (PPedidos.Visible == true)
-            {
-                EPanel();
-                BUbicacio();
-            }
-            else
-            {
-                PPedidos.Visible = true;
-                PPedidos.Size = new Size(177, 87);
+               // if (PPedidos.Visible == true)
+           // {
+                //EPanel();
+               // BUbicacio();
+           // }
+          //  else
+          //  {
+              //  PPedidos.Visible = true;
+              //  PPedidos.Size = new Size(177, 87);
 
-            }
-            BPedidos.Location = new Point(0, 49);
-            PPedidos.Location = new Point(0, 98);
+          //  }
+           // BPedidos.Location = new Point(0, 49);
+           // PPedidos.Location = new Point(0, 98);
             BPago.Location = new Point(0, 185);
             BGastos.Location = new Point(0, 234);
             BEstadist.Location = new Point(0, 283);
 
-            if (PPedidos.Visible == false)
-            {
-                BUbicacio();
-            }
+           // if (PPedidos.Visible == false)
+           // {
+           //     BUbicacio();
+           // }
+
+
            
            // }
         }
@@ -186,7 +196,7 @@ namespace Interfaz_CARINOR_2._0
         private void BAdminist_Click(object sender, EventArgs e)
         {
           
-                PPedidos.Visible = false;
+               // PPedidos.Visible = false;
                 PPago.Visible = false;
                 PGastos.Visible = false;
                 PInvers.Visible = false;
@@ -224,7 +234,7 @@ namespace Interfaz_CARINOR_2._0
             //if (PAdminist.Visible == true || PPedidos.Visible == true || PGastos.Visible == true || PInvers.Visible == true)
             //{
                 PAdminist.Visible = false;
-                PPedidos.Visible = false;
+              //  PPedidos.Visible = false;
                 PGastos.Visible = false;
                 PInvers.Visible = false;
 
@@ -256,7 +266,7 @@ namespace Interfaz_CARINOR_2._0
             //if (PAdminist.Visible == true || PPedidos.Visible == true || PPago.Visible == true || PInvers.Visible == true)
             //{
                 PAdminist.Visible = false;
-                PPedidos.Visible = false;
+               // PPedidos.Visible = false;
                 PPago.Visible = false;
                 PInvers.Visible = false;
                 if (PGastos.Visible == true)
@@ -298,7 +308,7 @@ namespace Interfaz_CARINOR_2._0
             //if (PAdminist.Visible == true || PPedidos.Visible == true || PPago.Visible == true || PGastos.Visible == true)
             //{
                 PAdminist.Visible = false;
-                PPedidos.Visible = false;
+               // PPedidos.Visible = false;
                 PPago.Visible = false;
                 PGastos.Visible = false;
 
