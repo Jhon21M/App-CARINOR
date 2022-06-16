@@ -392,13 +392,9 @@ C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollm
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Actualizar_Bodega.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Actualizar_producto.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Actualizar_Cliente.resources
-C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Eliminar_bodega.resources
-C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Eliminar_Cliente.resources
-C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Eliminar_producto.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FBodega.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FClientes.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FLogin.resources
-C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPrincipal.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPrincipal2.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FProductos.resources
 C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.HClientes.resources
@@ -506,3 +502,5 @@ C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\bin\Debug\VisualRea
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR-2.0.csproj.CopyComplete
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPedidos.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Gastos.resources
+C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPedidos.resources
+C:\Users\Centro de Innovacion\Documents\ARCHIVO-JHON\Carinor interfaces\De hollman\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Gastos.resources

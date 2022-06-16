@@ -23,12 +23,7 @@ namespace Interfaz_CARINOR_2._0
             if (PAdminist.Visible == true)
                 PAdminist.Visible = false;
          
-            if (PPago.Visible == true)
-                PPago.Visible = false;
-            if (PGastos.Visible == true)
-                PGastos.Visible = false;
-            if (PInvers.Visible == true)
-                PInvers.Visible = false;
+         
      
 
            
@@ -124,21 +119,8 @@ namespace Interfaz_CARINOR_2._0
             EPanel();
             BUbicacio();
 
+            PAdminist.Visible = false;   
 
-            
-
-
-            
-                PAdminist.Visible = false;
-                PPago.Visible = false;
-                PGastos.Visible = false;
-                PInvers.Visible = false;
-         
-            BPago.Location = new Point(0, 185);
-            BGastos.Location = new Point(0, 234);
-            BEstadist.Location = new Point(0, 283);
-
-        
         }
 
         private void iconButton17_Click(object sender, EventArgs e)
@@ -159,9 +141,7 @@ namespace Interfaz_CARINOR_2._0
         {
           
                
-                PPago.Visible = false;
-                PGastos.Visible = false;
-                PInvers.Visible = false;
+           
 
                 if (PAdminist.Visible == true)
                 {
@@ -193,31 +173,7 @@ namespace Interfaz_CARINOR_2._0
         private void BPago_Click(object sender, EventArgs e)
         {
 
-            
-                PAdminist.Visible = false;
-                PGastos.Visible = false;
-                PInvers.Visible = false;
-
-                if (PPago.Visible == true)
-            {
-                EPanel();
-                BUbicacio();
-            }
-            else
-            {
-                PPago.Visible = true;
-                PPago.Size = new Size(177, 88);
-            }
-            BPago.Location = new Point(0, 98);
-            PPago.Location = new Point(0, 148);
-            BGastos.Location = new Point(0, 235);
-            BEstadist.Location = new Point(0, 284);
-            
-
-            if (PPago.Visible == false)
-            {
-                BUbicacio();
-            }
+            PAdminist.Visible = false;
             
         }
 
@@ -225,27 +181,13 @@ namespace Interfaz_CARINOR_2._0
         {
             
                 PAdminist.Visible = false;
-                PPago.Visible = false;
-                PInvers.Visible = false;
-                if (PGastos.Visible == true)
             {
                 EPanel();
                 BUbicacio();
-            }
-            else
-            {
-                PGastos.Visible = true;
-                PGastos.Size = new Size(177, 86);
-            }
-            BGastos.Location = new Point(0, 147);
-            PGastos.Location = new Point(0, 197);
-            BEstadist.Location = new Point(0, 285);
+   
 
 
-            if (PGastos.Visible == false)
-            {
-                BUbicacio();
-            }
+}
         
         }
 
@@ -263,28 +205,7 @@ namespace Interfaz_CARINOR_2._0
         {
            
                 PAdminist.Visible = false;
-                PPago.Visible = false;
-                PGastos.Visible = false;
-
-                if (PInvers.Visible == true)
-            {
-                EPanel();
-                BUbicacio();
-            }
-            else
-            {
-                PInvers.Visible = true;
-                PInvers.Size = new Size(177, 87);
-            }
-            BEstadist.Location = new Point(0, 196);
-            PInvers.Location = new Point(0, 247);
-           
-
-
-            if (PInvers.Visible == false)
-            {
-                BUbicacio();
-            }
+   
            
         }
 
