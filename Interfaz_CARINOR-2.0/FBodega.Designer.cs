@@ -65,41 +65,45 @@ namespace Interfaz_CARINOR_2._0
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
             this.button3.Location = new System.Drawing.Point(594, 94);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 31);
             this.button3.TabIndex = 15;
             this.button3.Text = "Agregar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
             this.button2.Location = new System.Drawing.Point(594, 156);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 33);
             this.button2.TabIndex = 14;
             this.button2.Text = "Actualizar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(594, 218);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 34);
             this.button1.TabIndex = 13;
             this.button1.Text = "Eliminar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // DGTBodega
             // 
             this.DGTBodega.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.DGTBodega.BackgroundColor = System.Drawing.SystemColors.ControlDark;
             this.DGTBodega.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGTBodega.Location = new System.Drawing.Point(45, 47);
             this.DGTBodega.Name = "DGTBodega";
@@ -110,6 +114,7 @@ namespace Interfaz_CARINOR_2._0
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(698, 324);
             this.Controls.Add(this.DGTBodega);
             this.Controls.Add(this.label1);
