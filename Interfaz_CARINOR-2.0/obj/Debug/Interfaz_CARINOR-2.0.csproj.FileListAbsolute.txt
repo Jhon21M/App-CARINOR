@@ -416,13 +416,9 @@ C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Actualizar_Bodega.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Actualizar_producto.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Actualizar_Cliente.resources
-C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Eliminar_bodega.resources
-C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Eliminar_Cliente.resources
-C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Eliminar_producto.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FBodega.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FClientes.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FLogin.resources
-C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPrincipal.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPrincipal2.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FProductos.resources
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.HClientes.resources
@@ -509,3 +505,4 @@ C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\bin\Debug\Bunifu.UI
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\bin\Debug\VisualReactiveWinForms.xml
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR-2.0.csproj.CopyComplete
 C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.FPedidos.resources
+C:\Users\jorge\Desktop\JHON\App-CARINOR\Interfaz_CARINOR-2.0\obj\Debug\Interfaz_CARINOR_2._0.Gastos.resources

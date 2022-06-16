@@ -31,19 +31,19 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FLogin));
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.bunifuGradientPanel3 = new Bunifu.UI.WinForms.BunifuGradientPanel();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel3.SuspendLayout();
+            this.bunifuGradientPanel3 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.iconButton11 = new FontAwesome.Sharp.IconButton();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.bunifuGradientPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuDragControl1
@@ -52,6 +52,73 @@
             this.bunifuDragControl1.Horizontal = true;
             this.bunifuDragControl1.TargetControl = null;
             this.bunifuDragControl1.Vertical = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(281, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 20);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Usuario";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(263, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 19);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Contraseña";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.textBox1.Location = new System.Drawing.Point(243, 90);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(151, 20);
+            this.textBox1.TabIndex = 10;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.DragLeave += new System.EventHandler(this.textBox1_DragLeave);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.textBox2.Location = new System.Drawing.Point(243, 159);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(151, 20);
+            this.textBox2.TabIndex = 11;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
+            this.textBox2.MouseEnter += new System.EventHandler(this.textBox2_MouseEnter);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(263, 230);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(131, 57);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Acceder";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 43);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(189, 178);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
             // 
             // bunifuGradientPanel3
             // 
@@ -71,7 +138,7 @@
             this.bunifuGradientPanel3.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
             this.bunifuGradientPanel3.Quality = 10;
-            this.bunifuGradientPanel3.Size = new System.Drawing.Size(431, 37);
+            this.bunifuGradientPanel3.Size = new System.Drawing.Size(501, 37);
             this.bunifuGradientPanel3.TabIndex = 7;
             // 
             // iconButton11
@@ -82,7 +149,7 @@
             this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
             this.iconButton11.IconColor = System.Drawing.Color.Black;
             this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton11.Location = new System.Drawing.Point(386, 2);
+            this.iconButton11.Location = new System.Drawing.Point(449, 5);
             this.iconButton11.Name = "iconButton11";
             this.iconButton11.Size = new System.Drawing.Size(40, 32);
             this.iconButton11.TabIndex = 3;
@@ -135,77 +202,12 @@
             this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.iconButton3.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(190, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 20);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Usuario";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(190, 149);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 19);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Contraseña";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.Location = new System.Drawing.Point(194, 96);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 20);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.textBox1.DragLeave += new System.EventHandler(this.textBox1_DragLeave);
-            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox2.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textBox2.Location = new System.Drawing.Point(194, 186);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
-            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
-            this.textBox2.MouseEnter += new System.EventHandler(this.textBox2_MouseEnter);
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(267, 230);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 26);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Acceder";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 43);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(126, 111);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
             // FLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 308);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(501, 350);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -217,8 +219,8 @@
             this.Name = "FLogin";
             this.Text = "FLogin";
             this.Load += new System.EventHandler(this.FLogin_Load);
-            this.bunifuGradientPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.bunifuGradientPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
