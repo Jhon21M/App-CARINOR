@@ -362,6 +362,7 @@ namespace Interfaz_CARINOR_2._0
             this.bunifuToolTip1.SetToolTipIcon(this.bunifuButton25, null);
             this.bunifuToolTip1.SetToolTipTitle(this.bunifuButton25, "");
             this.bunifuButton25.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton25.Click += new System.EventHandler(this.bunifuButton25_Click_2);
             // 
             // bunifuPanel5
             // 

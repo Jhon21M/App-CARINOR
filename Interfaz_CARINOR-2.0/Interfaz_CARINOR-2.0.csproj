@@ -178,6 +178,7 @@
     <Compile Include="Actualizar_Cliente.Designer.cs">
       <DependentUpon>Actualizar_Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="FBodega.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,15 +209,7 @@
     <Compile Include="FPrincipal2.Designer.cs">
       <DependentUpon>FPrincipal2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FProductos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FProductos.Designer.cs">
-      <DependentUpon>FProductos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CompraEnvios.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="CompraEnvios.cs" />
     <Compile Include="CompraEnvios.Designer.cs">
       <DependentUpon>CompraEnvios.cs</DependentUpon>
     </Compile>
@@ -225,6 +218,13 @@
     </Compile>
     <Compile Include="HClientes.Designer.cs">
       <DependentUpon>HClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MProductos.cs" />
+    <Compile Include="NFProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NFProducto.Designer.cs">
+      <DependentUpon>NFProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="portada.cs">
       <SubType>Form</SubType>
@@ -270,14 +270,14 @@
     <EmbeddedResource Include="FPrincipal2.resx">
       <DependentUpon>FPrincipal2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FProductos.resx">
-      <DependentUpon>FProductos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CompraEnvios.resx">
       <DependentUpon>CompraEnvios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HClientes.resx">
       <DependentUpon>HClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NFProducto.resx">
+      <DependentUpon>NFProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="portada.resx">
       <DependentUpon>portada.cs</DependentUpon>

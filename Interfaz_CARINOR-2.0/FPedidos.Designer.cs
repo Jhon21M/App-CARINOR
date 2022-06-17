@@ -34,7 +34,11 @@
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Boton_Mostarpendiente = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.bunifuGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -48,6 +52,8 @@
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel1.BorderRadius = 1;
+            this.bunifuGradientPanel1.Controls.Add(this.dataGridView2);
+            this.bunifuGradientPanel1.Controls.Add(this.dataGridView1);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuThinButton21);
             this.bunifuGradientPanel1.Controls.Add(this.Boton_Mostarpendiente);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -70,7 +76,7 @@
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Pendientes";
+            this.bunifuThinButton21.ButtonText = "Entregados";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -79,7 +85,7 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(223, 68);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(310, 68);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
@@ -105,13 +111,29 @@
             this.Boton_Mostarpendiente.IdleFillColor = System.Drawing.Color.White;
             this.Boton_Mostarpendiente.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.Boton_Mostarpendiente.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Boton_Mostarpendiente.Location = new System.Drawing.Point(43, 68);
+            this.Boton_Mostarpendiente.Location = new System.Drawing.Point(59, 68);
             this.Boton_Mostarpendiente.Margin = new System.Windows.Forms.Padding(5);
             this.Boton_Mostarpendiente.Name = "Boton_Mostarpendiente";
             this.Boton_Mostarpendiente.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.Boton_Mostarpendiente.Size = new System.Drawing.Size(120, 41);
             this.Boton_Mostarpendiente.TabIndex = 22;
             this.Boton_Mostarpendiente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(36, 145);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(199, 325);
+            this.dataGridView1.TabIndex = 24;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(296, 145);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(199, 325);
+            this.dataGridView2.TabIndex = 24;
             // 
             // FPedidos
             // 
@@ -125,6 +147,8 @@
             this.Text = "FPedidos";
             this.Load += new System.EventHandler(this.FPedidos_Load);
             this.bunifuGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -134,5 +158,7 @@
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel1;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuThinButton2 Boton_Mostarpendiente;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

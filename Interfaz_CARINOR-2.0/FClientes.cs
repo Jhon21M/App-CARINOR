@@ -161,5 +161,10 @@ namespace Interfaz_CARINOR_2._0
         {
 
         }
+
+        private void bunifuButton25_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

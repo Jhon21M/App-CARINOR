@@ -225,7 +225,7 @@ namespace Interfaz_CARINOR_2._0
 
         private void iconButton8_Click(object sender, EventArgs e)
         {
-            AbrirFormularios(new FProductos());
+            AbrirFormularios(new FProductoss());
             EPanel();
             BUbicacio();
         }
@@ -364,7 +364,7 @@ namespace Interfaz_CARINOR_2._0
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
-            AbrirFormularios(new FProductos());
+            AbrirFormularios(new NFProducto());
             EPanel();
             BUbicacio();
 
