@@ -141,5 +141,25 @@ namespace Interfaz_CARINOR_2._0
         {
 
         }
+
+        private void bunifuButton25_Click_1(object sender, EventArgs e)
+        {
+            int h = bdgvcliente.Rows.Add();
+
+            bdgvcliente.Rows[h].Cells[0].Value = bunifuTextBox1nombre.Text;
+            bdgvcliente.Rows[h].Cells[1].Value = bunifuTextBox3apellido.Text;
+            bdgvcliente.Rows[h].Cells[2].Value = bunifuTextBox4telefono.Text;
+            bdgvcliente.Rows[h].Cells[3].Value = bunifuTextBox5direccion.Text;
+            bunifuTextBox1nombre.Text = " ";
+            bunifuTextBox3apellido.Text = " ";
+            bunifuTextBox4telefono.Text = " ";
+            bunifuTextBox5direccion.Text = " ";
+                
+        }
+
+        private void bunifuTextBox1nombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
