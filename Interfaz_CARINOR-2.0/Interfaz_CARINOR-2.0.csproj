@@ -214,11 +214,11 @@
     <Compile Include="FProductos.Designer.cs">
       <DependentUpon>FProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gastos.cs">
+    <Compile Include="CompraEnvios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gastos.Designer.cs">
-      <DependentUpon>Gastos.cs</DependentUpon>
+    <Compile Include="CompraEnvios.Designer.cs">
+      <DependentUpon>CompraEnvios.cs</DependentUpon>
     </Compile>
     <Compile Include="HClientes.cs">
       <SubType>Form</SubType>
@@ -273,8 +273,8 @@
     <EmbeddedResource Include="FProductos.resx">
       <DependentUpon>FProductos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gastos.resx">
-      <DependentUpon>Gastos.cs</DependentUpon>
+    <EmbeddedResource Include="CompraEnvios.resx">
+      <DependentUpon>CompraEnvios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HClientes.resx">
       <DependentUpon>HClientes.cs</DependentUpon>
