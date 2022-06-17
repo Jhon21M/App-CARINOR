@@ -59,10 +59,9 @@ namespace Interfaz_CARINOR_2._0
         private void BUbicacio()
         {
             BAdminist.Location = new Point(0, 0);
-            BPedidos.Location = new Point(0, 49);
-            BPago.Location = new Point(0, 98);
-            BGastos.Location = new Point(0, 147);
-            BEstadist.Location = new Point(0, 196);
+            BPedidos.Location = new Point(0, 50);
+            BGastos.Location = new Point(3, 100);
+            BEstadist.Location = new Point(0, 149);
         }
 
        
@@ -151,14 +150,13 @@ namespace Interfaz_CARINOR_2._0
                 else
                 {
                     PAdminist.Visible = true;
-                    PAdminist.Size = new Size(177, 170);
+                    PAdminist.Size = new Size(172, 136); 
                 }
                 BAdminist.Location = new Point(0, 0);
                 PAdminist.Location = new Point(0, 49);
-                BPedidos.Location = new Point(0, 219);
-                BPago.Location = new Point(0, 265);
-                BGastos.Location = new Point(0, 315);
-                BEstadist.Location = new Point(0, 364);
+                BPedidos.Location = new Point(0, 190);
+                BGastos.Location = new Point(0, 230);
+                BEstadist.Location = new Point(0, 270);
 
 
                 if (PAdminist.Visible == false)

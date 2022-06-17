@@ -51,7 +51,6 @@
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.BEstadist = new FontAwesome.Sharp.IconButton();
             this.BGastos = new FontAwesome.Sharp.IconButton();
-            this.BPago = new FontAwesome.Sharp.IconButton();
             this.BPedidos = new FontAwesome.Sharp.IconButton();
             this.BAdminist = new FontAwesome.Sharp.IconButton();
             this.TXTCAN = new System.Windows.Forms.Label();
@@ -290,7 +289,6 @@
             this.PSubMenu.Controls.Add(this.PAdminist);
             this.PSubMenu.Controls.Add(this.BEstadist);
             this.PSubMenu.Controls.Add(this.BGastos);
-            this.PSubMenu.Controls.Add(this.BPago);
             this.PSubMenu.Controls.Add(this.BPedidos);
             this.PSubMenu.Controls.Add(this.BAdminist);
             this.PSubMenu.Location = new System.Drawing.Point(24, 163);
@@ -438,7 +436,7 @@
             this.BEstadist.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BEstadist.IconSize = 40;
             this.BEstadist.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BEstadist.Location = new System.Drawing.Point(0, 196);
+            this.BEstadist.Location = new System.Drawing.Point(0, 149);
             this.BEstadist.Name = "BEstadist";
             this.BEstadist.Size = new System.Drawing.Size(206, 48);
             this.BEstadist.TabIndex = 18;
@@ -460,7 +458,7 @@
             this.BGastos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BGastos.IconSize = 40;
             this.BGastos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BGastos.Location = new System.Drawing.Point(0, 148);
+            this.BGastos.Location = new System.Drawing.Point(3, 100);
             this.BGastos.Name = "BGastos";
             this.BGastos.Size = new System.Drawing.Size(209, 48);
             this.BGastos.TabIndex = 17;
@@ -469,28 +467,6 @@
             this.BGastos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BGastos.UseVisualStyleBackColor = false;
             this.BGastos.Click += new System.EventHandler(this.BGastos_Click);
-            // 
-            // BPago
-            // 
-            this.BPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.BPago.FlatAppearance.BorderSize = 0;
-            this.BPago.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.BPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BPago.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
-            this.BPago.IconChar = FontAwesome.Sharp.IconChar.MoneyBillWave;
-            this.BPago.IconColor = System.Drawing.Color.Black;
-            this.BPago.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BPago.IconSize = 40;
-            this.BPago.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BPago.Location = new System.Drawing.Point(0, 99);
-            this.BPago.Name = "BPago";
-            this.BPago.Size = new System.Drawing.Size(209, 48);
-            this.BPago.TabIndex = 4;
-            this.BPago.Text = "Pago";
-            this.BPago.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BPago.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BPago.UseVisualStyleBackColor = false;
-            this.BPago.Click += new System.EventHandler(this.BPago_Click);
             // 
             // BPedidos
             // 
@@ -694,7 +670,6 @@
         private FontAwesome.Sharp.IconButton BAdminist;
         private Bunifu.UI.WinForms.BunifuPanel PSubMenu;
         private FontAwesome.Sharp.IconButton BPedidos;
-        private FontAwesome.Sharp.IconButton BPago;
         private FontAwesome.Sharp.IconButton BGastos;
         private FontAwesome.Sharp.IconButton BEstadist;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator1;
