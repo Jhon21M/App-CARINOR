@@ -32,9 +32,9 @@ namespace Interfaz_CARINOR_2._0
             int f = DGTBodega.Rows.Add();
 
             DGTBodega.Rows[f].Cells[0].Value = tbxPRODUCTO.Text;
-            DGTBodega.Rows[f].Cells[0].Value = tbxMARCA.Text;
-            DGTBodega.Rows[f].Cells[0].Value = tbxPRECIO.Text;
-            DGTBodega.Rows[f].Cells[0].Value = tbxCADUCIDAD.Text;
+            DGTBodega.Rows[f].Cells[1].Value = tbxMARCA.Text;
+            DGTBodega.Rows[f].Cells[2].Value = tbxPRECIO.Text;
+            DGTBodega.Rows[f].Cells[3].Value = tbxCADUCIDAD.Text;
             tbxPRODUCTO.Text = " ";
             tbxMARCA.Text = " ";
             tbxPRECIO.Text = " ";
