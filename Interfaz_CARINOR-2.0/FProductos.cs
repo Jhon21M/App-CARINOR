@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Interfaz_CARINOR_2._0
 {
     public partial class FProductos : Form
     {
+        MProductos ObjMP = new MProductos();
         public FProductos()
         {
             InitializeComponent();
@@ -19,8 +21,15 @@ namespace Interfaz_CARINOR_2._0
 
         private void FProductos_Load(object sender, EventArgs e)
         {
+            MostrarProd();
+        }
+
+        public void MostrarProd()
+        {
+            DGTProductos.DataSource = ObjMP.MostrarP();
 
         }
+
 
         private void DGTProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

@@ -178,6 +178,7 @@
     <Compile Include="Actualizar_Cliente.Designer.cs">
       <DependentUpon>Actualizar_Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="FBodega.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +227,7 @@
     <Compile Include="HClientes.Designer.cs">
       <DependentUpon>HClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="MProductos.cs" />
     <Compile Include="portada.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -43,7 +43,7 @@ namespace Interfaz_CARINOR_2._0
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(18, 288);
+            this.label1.Location = new System.Drawing.Point(18, 552);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 19);
             this.label1.TabIndex = 11;
@@ -66,7 +66,7 @@ namespace Interfaz_CARINOR_2._0
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(581, 88);
+            this.button5.Location = new System.Drawing.Point(854, 352);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 35);
             this.button5.TabIndex = 14;
@@ -77,7 +77,7 @@ namespace Interfaz_CARINOR_2._0
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(581, 156);
+            this.button6.Location = new System.Drawing.Point(854, 420);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(94, 31);
             this.button6.TabIndex = 13;
@@ -88,7 +88,7 @@ namespace Interfaz_CARINOR_2._0
             // 
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button7.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(581, 230);
+            this.button7.Location = new System.Drawing.Point(854, 494);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(94, 26);
             this.button7.TabIndex = 12;
@@ -103,7 +103,7 @@ namespace Interfaz_CARINOR_2._0
             this.DGTProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGTProductos.Location = new System.Drawing.Point(36, 50);
             this.DGTProductos.Name = "DGTProductos";
-            this.DGTProductos.Size = new System.Drawing.Size(535, 205);
+            this.DGTProductos.Size = new System.Drawing.Size(808, 469);
             this.DGTProductos.TabIndex = 19;
             this.DGTProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGTProductos_CellContentClick);
             // 
@@ -112,7 +112,7 @@ namespace Interfaz_CARINOR_2._0
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(698, 324);
+            this.ClientSize = new System.Drawing.Size(971, 588);
             this.Controls.Add(this.DGTProductos);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
