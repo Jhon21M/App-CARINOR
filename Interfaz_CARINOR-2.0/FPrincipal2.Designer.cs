@@ -46,7 +46,6 @@
             this.PAdminist = new Bunifu.UI.WinForms.BunifuPanel();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
             this.iconButton9 = new FontAwesome.Sharp.IconButton();
             this.iconButton8 = new FontAwesome.Sharp.IconButton();
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
@@ -311,14 +310,13 @@
             this.PAdminist.BorderThickness = 1;
             this.PAdminist.Controls.Add(this.iconButton3);
             this.PAdminist.Controls.Add(this.iconButton10);
-            this.PAdminist.Controls.Add(this.iconButton12);
             this.PAdminist.Controls.Add(this.iconButton9);
             this.PAdminist.Controls.Add(this.iconButton8);
             this.PAdminist.Controls.Add(this.iconButton7);
             this.PAdminist.Location = new System.Drawing.Point(5, 247);
             this.PAdminist.Name = "PAdminist";
             this.PAdminist.ShowBorders = true;
-            this.PAdminist.Size = new System.Drawing.Size(23, 175);
+            this.PAdminist.Size = new System.Drawing.Size(172, 136);
             this.PAdminist.TabIndex = 0;
             this.PAdminist.Click += new System.EventHandler(this.bunifuPanel3_Click);
             // 
@@ -333,10 +331,10 @@
             this.iconButton3.IconColor = System.Drawing.Color.Ivory;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 128);
+            this.iconButton3.Location = new System.Drawing.Point(0, 88);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton3.Size = new System.Drawing.Size(23, 42);
+            this.iconButton3.Size = new System.Drawing.Size(172, 42);
             this.iconButton3.TabIndex = 17;
             this.iconButton3.Text = "Poductos";
             this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -355,37 +353,16 @@
             this.iconButton10.IconColor = System.Drawing.Color.Ivory;
             this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton10.Location = new System.Drawing.Point(0, 80);
+            this.iconButton10.Location = new System.Drawing.Point(0, 40);
             this.iconButton10.Name = "iconButton10";
             this.iconButton10.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton10.Size = new System.Drawing.Size(23, 48);
+            this.iconButton10.Size = new System.Drawing.Size(172, 48);
             this.iconButton10.TabIndex = 14;
             this.iconButton10.Text = "Clientes";
             this.iconButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton10.UseVisualStyleBackColor = false;
             this.iconButton10.Click += new System.EventHandler(this.iconButton10_Click);
-            // 
-            // iconButton12
-            // 
-            this.iconButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.iconButton12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton12.FlatAppearance.BorderSize = 0;
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.UserNinja;
-            this.iconButton12.IconColor = System.Drawing.Color.Ivory;
-            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton12.Location = new System.Drawing.Point(0, 40);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton12.Size = new System.Drawing.Size(23, 40);
-            this.iconButton12.TabIndex = 16;
-            this.iconButton12.Text = "Trabajadores";
-            this.iconButton12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton12.UseVisualStyleBackColor = false;
             // 
             // iconButton9
             // 
@@ -401,7 +378,7 @@
             this.iconButton9.Location = new System.Drawing.Point(0, 0);
             this.iconButton9.Name = "iconButton9";
             this.iconButton9.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.iconButton9.Size = new System.Drawing.Size(23, 40);
+            this.iconButton9.Size = new System.Drawing.Size(172, 40);
             this.iconButton9.TabIndex = 15;
             this.iconButton9.Text = "Bodega";
             this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -740,11 +717,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label TXTCAN;
         private Bunifu.UI.WinForms.BunifuPanel PAdminist;
+        private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton12;
         private FontAwesome.Sharp.IconButton iconButton9;
         private FontAwesome.Sharp.IconButton iconButton8;
         private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }

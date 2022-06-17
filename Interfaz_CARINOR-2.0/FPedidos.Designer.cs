@@ -29,221 +29,163 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1cantidad = new System.Windows.Forms.TextBox();
-            this.textBox2precio = new System.Windows.Forms.TextBox();
-            this.textBox3cliente = new System.Windows.Forms.TextBox();
-            this.button1guardar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FPedidos));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1destino = new System.Windows.Forms.TextBox();
-            this.label6pedido = new System.Windows.Forms.Label();
-            this.textBox1Idpedido = new System.Windows.Forms.TextBox();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DTGMostrarp = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Boton_Mostarpendiente = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Boton_PedidosE = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.NobreCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Pedido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Pagar_P = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.DTGMostrarp)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(385, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Registro de Pedidos";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button1guardar);
-            this.groupBox1.Controls.Add(this.textBox1destino);
-            this.groupBox1.Controls.Add(this.textBox3cliente);
-            this.groupBox1.Controls.Add(this.textBox2precio);
-            this.groupBox1.Controls.Add(this.textBox1Idpedido);
-            this.groupBox1.Controls.Add(this.textBox1cantidad);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label6pedido);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 67);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(367, 336);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "PEDIDOS";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Cantidad";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Precio";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(38, 148);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Cliente";
-            // 
-            // textBox1cantidad
-            // 
-            this.textBox1cantidad.Location = new System.Drawing.Point(173, 75);
-            this.textBox1cantidad.Name = "textBox1cantidad";
-            this.textBox1cantidad.Size = new System.Drawing.Size(129, 20);
-            this.textBox1cantidad.TabIndex = 1;
-            // 
-            // textBox2precio
-            // 
-            this.textBox2precio.Location = new System.Drawing.Point(173, 110);
-            this.textBox2precio.Name = "textBox2precio";
-            this.textBox2precio.Size = new System.Drawing.Size(129, 20);
-            this.textBox2precio.TabIndex = 1;
-            // 
-            // textBox3cliente
-            // 
-            this.textBox3cliente.Location = new System.Drawing.Point(173, 144);
-            this.textBox3cliente.Name = "textBox3cliente";
-            this.textBox3cliente.Size = new System.Drawing.Size(129, 20);
-            this.textBox3cliente.TabIndex = 1;
-            this.textBox3cliente.TextChanged += new System.EventHandler(this.textBox3cliente_TextChanged);
-            // 
-            // button1guardar
-            // 
-            this.button1guardar.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1guardar.Location = new System.Drawing.Point(63, 239);
-            this.button1guardar.Name = "button1guardar";
-            this.button1guardar.Size = new System.Drawing.Size(74, 39);
-            this.button1guardar.TabIndex = 2;
-            this.button1guardar.Text = "Guardar";
-            this.button1guardar.UseVisualStyleBackColor = false;
-            this.button1guardar.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(406, 81);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(541, 322);
-            this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 40;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // button1
+            // DTGMostrarp
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(186, 239);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Borrar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.DTGMostrarp.AllowCustomTheming = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.DTGMostrarp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DTGMostrarp.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DTGMostrarp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DTGMostrarp.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DTGMostrarp.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DTGMostrarp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DTGMostrarp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DTGMostrarp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NobreCliente,
+            this.Cantidad_Pedido,
+            this.Cantidad_Pagar_P});
+            this.DTGMostrarp.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.DTGMostrarp.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.DTGMostrarp.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.DTGMostrarp.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.DTGMostrarp.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.DTGMostrarp.CurrentTheme.BackColor = System.Drawing.Color.White;
+            this.DTGMostrarp.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.DTGMostrarp.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.DTGMostrarp.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            this.DTGMostrarp.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DTGMostrarp.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.DTGMostrarp.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.DTGMostrarp.CurrentTheme.Name = null;
+            this.DTGMostrarp.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DTGMostrarp.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.DTGMostrarp.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.DTGMostrarp.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.DTGMostrarp.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DTGMostrarp.DefaultCellStyle = dataGridViewCellStyle4;
+            this.DTGMostrarp.EnableHeadersVisualStyles = false;
+            this.DTGMostrarp.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.DTGMostrarp.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.DTGMostrarp.HeaderBgColor = System.Drawing.Color.Empty;
+            this.DTGMostrarp.HeaderForeColor = System.Drawing.Color.White;
+            this.DTGMostrarp.Location = new System.Drawing.Point(43, 102);
+            this.DTGMostrarp.Name = "DTGMostrarp";
+            this.DTGMostrarp.RowHeadersVisible = false;
+            this.DTGMostrarp.RowTemplate.Height = 40;
+            this.DTGMostrarp.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DTGMostrarp.Size = new System.Drawing.Size(427, 429);
+            this.DTGMostrarp.TabIndex = 1;
+            this.DTGMostrarp.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
-            // label5
+            // Boton_Mostarpendiente
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 186);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 16);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Destino";
+            this.Boton_Mostarpendiente.ActiveBorderThickness = 1;
+            this.Boton_Mostarpendiente.ActiveCornerRadius = 20;
+            this.Boton_Mostarpendiente.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.Boton_Mostarpendiente.ActiveForecolor = System.Drawing.Color.White;
+            this.Boton_Mostarpendiente.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.Boton_Mostarpendiente.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Boton_Mostarpendiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Boton_Mostarpendiente.BackgroundImage")));
+            this.Boton_Mostarpendiente.ButtonText = "Pendientes";
+            this.Boton_Mostarpendiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Boton_Mostarpendiente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Boton_Mostarpendiente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Boton_Mostarpendiente.IdleBorderThickness = 1;
+            this.Boton_Mostarpendiente.IdleCornerRadius = 10;
+            this.Boton_Mostarpendiente.IdleFillColor = System.Drawing.Color.White;
+            this.Boton_Mostarpendiente.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.Boton_Mostarpendiente.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.Boton_Mostarpendiente.Location = new System.Drawing.Point(43, 53);
+            this.Boton_Mostarpendiente.Margin = new System.Windows.Forms.Padding(5);
+            this.Boton_Mostarpendiente.Name = "Boton_Mostarpendiente";
+            this.Boton_Mostarpendiente.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.Boton_Mostarpendiente.Size = new System.Drawing.Size(120, 41);
+            this.Boton_Mostarpendiente.TabIndex = 2;
+            this.Boton_Mostarpendiente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1destino
+            // Boton_PedidosE
             // 
-            this.textBox1destino.Location = new System.Drawing.Point(173, 182);
-            this.textBox1destino.Name = "textBox1destino";
-            this.textBox1destino.Size = new System.Drawing.Size(129, 20);
-            this.textBox1destino.TabIndex = 1;
-            this.textBox1destino.TextChanged += new System.EventHandler(this.textBox3cliente_TextChanged);
+            this.Boton_PedidosE.ActiveBorderThickness = 1;
+            this.Boton_PedidosE.ActiveCornerRadius = 20;
+            this.Boton_PedidosE.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.Boton_PedidosE.ActiveForecolor = System.Drawing.Color.White;
+            this.Boton_PedidosE.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.Boton_PedidosE.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Boton_PedidosE.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Boton_PedidosE.BackgroundImage")));
+            this.Boton_PedidosE.ButtonText = "Entregados";
+            this.Boton_PedidosE.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Boton_PedidosE.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Boton_PedidosE.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Boton_PedidosE.IdleBorderThickness = 1;
+            this.Boton_PedidosE.IdleCornerRadius = 10;
+            this.Boton_PedidosE.IdleFillColor = System.Drawing.Color.White;
+            this.Boton_PedidosE.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.Boton_PedidosE.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.Boton_PedidosE.Location = new System.Drawing.Point(163, 53);
+            this.Boton_PedidosE.Margin = new System.Windows.Forms.Padding(5);
+            this.Boton_PedidosE.Name = "Boton_PedidosE";
+            this.Boton_PedidosE.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.Boton_PedidosE.Size = new System.Drawing.Size(120, 41);
+            this.Boton_PedidosE.TabIndex = 3;
+            this.Boton_PedidosE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6pedido
+            // NobreCliente
             // 
-            this.label6pedido.AutoSize = true;
-            this.label6pedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6pedido.Location = new System.Drawing.Point(33, 46);
-            this.label6pedido.Name = "label6pedido";
-            this.label6pedido.Size = new System.Drawing.Size(74, 16);
-            this.label6pedido.TabIndex = 0;
-            this.label6pedido.Text = "Id pedido";
-            this.label6pedido.Click += new System.EventHandler(this.label2_Click);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.NobreCliente.DefaultCellStyle = dataGridViewCellStyle3;
+            this.NobreCliente.DividerWidth = 1;
+            this.NobreCliente.HeaderText = "Cliente";
+            this.NobreCliente.Name = "NobreCliente";
+            this.NobreCliente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.NobreCliente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // textBox1Idpedido
+            // Cantidad_Pedido
             // 
-            this.textBox1Idpedido.Location = new System.Drawing.Point(173, 45);
-            this.textBox1Idpedido.Name = "textBox1Idpedido";
-            this.textBox1Idpedido.Size = new System.Drawing.Size(129, 20);
-            this.textBox1Idpedido.TabIndex = 1;
+            this.Cantidad_Pedido.DividerWidth = 1;
+            this.Cantidad_Pedido.HeaderText = "Cantidad";
+            this.Cantidad_Pedido.Name = "Cantidad_Pedido";
             // 
-            // Column1
+            // Cantidad_Pagar_P
             // 
-            this.Column1.HeaderText = "Id pedido";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Cantidad";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Precio";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Cliente";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Destino";
-            this.Column5.Name = "Column5";
+            this.Cantidad_Pagar_P.HeaderText = "Pendiente";
+            this.Cantidad_Pagar_P.Name = "Cantidad_Pagar_P";
             // 
             // FPedidos
             // 
@@ -251,42 +193,25 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(971, 588);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Boton_PedidosE);
+            this.Controls.Add(this.Boton_Mostarpendiente);
+            this.Controls.Add(this.DTGMostrarp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FPedidos";
             this.Text = "FPedidos";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FPedidos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DTGMostrarp)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1guardar;
-        private System.Windows.Forms.TextBox textBox3cliente;
-        private System.Windows.Forms.TextBox textBox2precio;
-        private System.Windows.Forms.TextBox textBox1cantidad;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1destino;
-        private System.Windows.Forms.TextBox textBox1Idpedido;
-        private System.Windows.Forms.Label label6pedido;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private Bunifu.Framework.UI.BunifuThinButton2 Boton_PedidosE;
+        private Bunifu.Framework.UI.BunifuThinButton2 Boton_Mostarpendiente;
+        private Bunifu.UI.WinForms.BunifuDataGridView DTGMostrarp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NobreCliente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Pedido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Pagar_P;
     }
 }
